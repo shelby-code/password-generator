@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 63, 22);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 300px;
+    max-width: 100%;
+    background-color: rgb(89, 126, 94);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.settings{
+    margin-top: 10px;
+}
+.setting{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.password-container{
+    position: relative;
+    background-color: rgba(44, 41, 41, 0.356);
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 4px;
+    
+}
+
+#password-length{
+    width: 35px;
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* #span{
+    background-color: darkgreen;
+} */
+
+.btn{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.generate{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.generate:focus{
+    outline: none;
+    
+}
+
+.generate:active{
+    transform: scale(0.98);
+}
+
+
